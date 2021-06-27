@@ -1,0 +1,39 @@
+.centro{
+    text-align: center;
+}
+
+.leter{
+    font-family: Helvetica;
+}
+
+.btn-matriz{
+    height: 30px;
+    width: 40px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.det2{
+    width: 110px;
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+}
+
+.det3{
+    width: 150px;
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+}
+
+.det4{
+    width: 200px;
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+}
+
+.result{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgb(18, 180, 32);
+}

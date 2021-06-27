@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRICES SYSTEM</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body class="fondo">
+    <div class="container mt-3 contenedor">
+        <div class="centro mb-5" >
+            <h1 class="leter">Determinantes de una matriz</h1>
+        </div>
+
+        <div>
+            <h5>Determinante de una matriz.</h5>
+        </div>
+        <hr>
+
+       <div class="row " >
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <h3>Matriz 2x2</h3>
+            
+                <div class="det2 pl-4 mt-4" >
+                    
+                    <div class="row">
+                        <input id="a" class="btn-matriz" type="number">
+                        <input id="b" class="btn-matriz" type="number">
+                    </div>
+                    <div class="row">
+                        <input id="c" class="btn-matriz" type="number">
+                        <input id="d" class="btn-matriz" type="number" >
+                    </div>
+                </div>
+                
+                <div class="pt-3">
+                    <input type="button" value="Calcular" id="calcular2">
+                </div>
+
+
+                <div class="result mt-3">
+                    <h2 id="show2"></h2>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
+                <div id="showStepM2">
+
+                </div>
+            </div>
+       </div>
+
+       <hr>
+
+
+       <div class="row">
+           <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
+                <h3>Matriz 3x3</h3>
+                
+                <div class="det3 pl-4" >
+                    
+                    <div class="row">
+                        <input id="e" class="btn-matriz" type="number">
+                        <input id="f" class="btn-matriz" type="number">
+                        <input id="g" class="btn-matriz" type="number">
+                    </div>
+                    <div class="row">
+                        <input id="h" class="btn-matriz" type="number">
+                        <input id="i" class="btn-matriz" type="number" >
+                        <input id="j" class="btn-matriz" type="number">
+                    </div>
+                    <div class="row">
+                        <input id="k" class="btn-matriz" type="number">
+                        <input id="l" class="btn-matriz" type="number" >
+                        <input id="m" class="btn-matriz" type="number">
+                    </div>
+                    
+                </div>
+                <div class="pt-3">
+                    <input type="button" value="Calcular" id="calcular3">
+                </div>
+
+
+                <div class="result mt-3">
+                    <h2 id="show3"></h2>
+                </div>
+           </div>
+
+           <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+            <div id="showStepM3">
+                    
+                </div>
+           </div>
+       </div>
+       <hr>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="./function/calcular.js"></script>
+</body>
+</html>
